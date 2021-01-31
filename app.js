@@ -1,3 +1,8 @@
+var order;
+
+function takePizaa(){
+    
+
 var fromWhere = prompt('where are you from ?') 
 console.log(fromWhere);
 
@@ -8,15 +13,18 @@ if(fromWhere=='napoli'){
 }else if (fromWhere == 'lambardia'){
     message = 'Forza Rossoniri';}
     
-    var order = prompt('what kind do you want marghrita or vegatables?');
+    order = prompt('what kind do you want marghrita or vegatables?');
     
 
     while(order !=='marghrita'&&  order != 'vegatables'){
          
         order =prompt('please write only marghrita or vegatables ')
     }
+    
+    document.write('<h3>' + fromWhere +'</h3>')
 
-
+}
+function pizaaSize(){
     var pizza = '';
 
     if(order === 'marghrita'){
@@ -34,8 +42,7 @@ if(fromWhere=='napoli'){
     for(var i = 0 ; i<numPizza ; i ++){
         document.write(result);
     }
-    
 
-
-
-document.write('<h3>' + fromWhere +'</h3>')
+} 
+ takePizaa();
+pizaaSize();

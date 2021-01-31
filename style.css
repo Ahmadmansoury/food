@@ -1,0 +1,47 @@
+*{
+    margin:0%;
+}
+
+header{
+
+background-color: rgb(241, 95, 15);
+
+}
+
+header h1{
+
+    margin: 50px 0 50px 70px;
+
+    text-align: center;
+}
+
+header nav ul{
+    list-style:none;
+
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 60px;
+
+
+}
+header nav ul li a{
+    text-decoration:rgb(241, 8, 8)
+    color:gold
+}
+
+img{
+    width: 30%;
+    margin: 40px;
+}
+
+#mainParagraph{
+    color: black;
+    background-color: rgb(207, 67, 67);
+}
+
+.paragraphs{
+    background-color: rgba(226, 29, 29, 0.473);
+    color: rgb(10, 155, 212);
+}
